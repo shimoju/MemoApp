@@ -10,4 +10,6 @@
 
 @interface MAMemo : NSObject
 
+@property (nonatomic, strong) NSString *title;
+
 @end

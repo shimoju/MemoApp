@@ -10,4 +10,8 @@
 
 @interface MAMemoList : NSObject
 
+@property (nonatomic, strong) NSMutableArray *memos;
+
++ (id)sharedMemoList;
+
 @end
