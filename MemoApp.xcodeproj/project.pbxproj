@@ -22,6 +22,8 @@
 		454E6E3B182DC8220079F5C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454E6E39182DC8220079F5C6 /* InfoPlist.strings */; };
 		454E6E3D182DC8220079F5C6 /* MemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E6E3C182DC8220079F5C6 /* MemoAppTests.m */; };
 		454E6E48182DCA380079F5C6 /* MAMemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E6E47182DCA380079F5C6 /* MAMemoListViewController.m */; };
+		454E6E4B182DCADD0079F5C6 /* MAMemoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E6E4A182DCADD0079F5C6 /* MAMemoList.m */; };
+		454E6E4E182DCAEC0079F5C6 /* MAMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E6E4D182DCAEC0079F5C6 /* MAMemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		454E6E3C182DC8220079F5C6 /* MemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoAppTests.m; sourceTree = "<group>"; };
 		454E6E46182DCA380079F5C6 /* MAMemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMemoListViewController.h; sourceTree = "<group>"; };
 		454E6E47182DCA380079F5C6 /* MAMemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMemoListViewController.m; sourceTree = "<group>"; };
+		454E6E49182DCADD0079F5C6 /* MAMemoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMemoList.h; sourceTree = "<group>"; };
+		454E6E4A182DCADD0079F5C6 /* MAMemoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMemoList.m; sourceTree = "<group>"; };
+		454E6E4C182DCAEC0079F5C6 /* MAMemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMemo.h; sourceTree = "<group>"; };
+		454E6E4D182DCAEC0079F5C6 /* MAMemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 			children = (
 				454E6E20182DC8220079F5C6 /* MAAppDelegate.h */,
 				454E6E21182DC8220079F5C6 /* MAAppDelegate.m */,
+				454E6E49182DCADD0079F5C6 /* MAMemoList.h */,
+				454E6E4A182DCADD0079F5C6 /* MAMemoList.m */,
+				454E6E4C182DCAEC0079F5C6 /* MAMemo.h */,
+				454E6E4D182DCAEC0079F5C6 /* MAMemo.m */,
 				454E6E23182DC8220079F5C6 /* Main.storyboard */,
 				454E6E26182DC8220079F5C6 /* MAViewController.h */,
 				454E6E27182DC8220079F5C6 /* MAViewController.m */,
@@ -258,7 +268,9 @@
 				454E6E48182DCA380079F5C6 /* MAMemoListViewController.m in Sources */,
 				454E6E22182DC8220079F5C6 /* MAAppDelegate.m in Sources */,
 				454E6E28182DC8220079F5C6 /* MAViewController.m in Sources */,
+				454E6E4E182DCAEC0079F5C6 /* MAMemo.m in Sources */,
 				454E6E1E182DC8220079F5C6 /* main.m in Sources */,
+				454E6E4B182DCADD0079F5C6 /* MAMemoList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
