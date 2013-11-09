@@ -4,6 +4,35 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="xqt-VB-010">
+            <objects>
+                <tableViewController id="coS-tn-MjU" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="paE-kx-d8d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Zeh-WV-vXG">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zeh-WV-vXG" id="1rp-Le-vcO">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="coS-tn-MjU" id="Pu5-Og-g1B"/>
+                            <outlet property="delegate" destination="coS-tn-MjU" id="08j-hx-bJA"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="zWQ-t1-N9L"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7lq-4X-NsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1163" y="110"/>
+        </scene>
         <!--View Controller - MemoApp-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
@@ -26,7 +55,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="MemoApp" id="zeR-ue-Kg6">
-                        <barButtonItem key="leftBarButtonItem" title="List" id="FCi-0F-Spk"/>
+                        <barButtonItem key="leftBarButtonItem" title="List" id="FCi-0F-Spk">
+                            <connections>
+                                <segue destination="coS-tn-MjU" kind="push" id="u5o-at-yYE"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="wb5-wK-0D9"/>
                     </navigationItem>
                 </viewController>
