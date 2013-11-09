@@ -7,8 +7,12 @@
 //
 
 #import "MAViewController.h"
+#import "MAMemoList.h"
+#import "MAMemo.h"
 
 @interface MAViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *memoText;
 
 @end
 
@@ -24,6 +28,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)createMemo:(id)sender {
+    MAMemo *memo = [[MAMemo alloc] init];
+    memo.title = self.memoText.text;
+
+    [[[MAMemoList sharedMemoList] memos] addObject:memo];
 }
 
 @end

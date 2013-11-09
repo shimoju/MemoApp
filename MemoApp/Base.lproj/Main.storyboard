@@ -60,8 +60,15 @@
                                 <segue destination="coS-tn-MjU" kind="push" id="u5o-at-yYE"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="wb5-wK-0D9"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="wb5-wK-0D9">
+                            <connections>
+                                <action selector="createMemo:" destination="vXZ-lx-hvc" id="SIB-L8-DRU"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="memoText" destination="JmO-17-o64" id="e2g-F8-1Wd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
