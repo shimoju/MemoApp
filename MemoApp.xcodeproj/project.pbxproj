@@ -21,6 +21,7 @@
 		454E6E33182DC8220079F5C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454E6E15182DC8220079F5C6 /* UIKit.framework */; };
 		454E6E3B182DC8220079F5C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454E6E39182DC8220079F5C6 /* InfoPlist.strings */; };
 		454E6E3D182DC8220079F5C6 /* MemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E6E3C182DC8220079F5C6 /* MemoAppTests.m */; };
+		454E6E48182DCA380079F5C6 /* MAMemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E6E47182DCA380079F5C6 /* MAMemoListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		454E6E38182DC8220079F5C6 /* MemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoAppTests-Info.plist"; sourceTree = "<group>"; };
 		454E6E3A182DC8220079F5C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		454E6E3C182DC8220079F5C6 /* MemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoAppTests.m; sourceTree = "<group>"; };
+		454E6E46182DCA380079F5C6 /* MAMemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMemoListViewController.h; sourceTree = "<group>"; };
+		454E6E47182DCA380079F5C6 /* MAMemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMemoListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				454E6E23182DC8220079F5C6 /* Main.storyboard */,
 				454E6E26182DC8220079F5C6 /* MAViewController.h */,
 				454E6E27182DC8220079F5C6 /* MAViewController.m */,
+				454E6E46182DCA380079F5C6 /* MAMemoListViewController.h */,
+				454E6E47182DCA380079F5C6 /* MAMemoListViewController.m */,
 				454E6E29182DC8220079F5C6 /* Images.xcassets */,
 				454E6E18182DC8220079F5C6 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454E6E48182DCA380079F5C6 /* MAMemoListViewController.m in Sources */,
 				454E6E22182DC8220079F5C6 /* MAAppDelegate.m in Sources */,
 				454E6E28182DC8220079F5C6 /* MAViewController.m in Sources */,
 				454E6E1E182DC8220079F5C6 /* main.m in Sources */,
